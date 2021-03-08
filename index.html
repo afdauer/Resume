@@ -12,37 +12,35 @@
     <!-- Professional Portrait, 
     always same as LinkedIn -->
     <!-- <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFpJXXvNxI0-Q/profile-displayphoto-shrink_400_400/0/1592429752790?e=1620259200&v=beta&t=bLE3lD8MnMrAZdcuHMNp_ROYZy4CyRni6oo1MoeIrHU" height="150" width="131.25" /> -->
-    <h1><center>Anderson Dauer</center></h1>
-    <h5><center>1202 Kenshire Lane</center></h5>
-    <h5><center>Richardson, Texas  75081</center></h5>
-    <h5><center>ad321196@g.risd.org</center></h5>
-    <h5><center>(469) 388-2188</center></h5>
-    <br>
-    <br>
+    <div id="info">
+      <h1><center>Anderson Dauer</center></h1>
+      <h5><center>1202 Kenshire Lane</center></h5>
+      <h5><center>Richardson, Texas  75081</center></h5>
+      <h5><center>ad321196@g.risd.org</center></h5>
+      <h5><center>(469) 388-2188</center></h5>
+      <br>
+      <br>
+    </div>
     <center>
       <div id="tabs" class="tabs">
-        <button id="home">Home</button>
-        <button id="objective">Objective</button>
-        <button id="education">Education & Certifications</button>
-        <button id="experience">Experience</button>
-        <button id="extracurricular">Extracurricular</button>
+        <button class="tablinks active" onclick="clickHandle(event, 'objective')">Objective</button>
+        <button class="tablinks" onclick="clickHandle(event, 'education')">Education & Certifications</button>
+        <button class="tablinks" onclick="clickHandle(event, 'experience')">Experience</button>
+        <button class="tablinks" onclick="clickHandle(event, 'extracurricular')">Extracurricular</button>
       </div>
     </center>
     <br>
+    <hr>
   </header>
-
-
-
-
-
-  
-  <!-- <body>
+  <body>
     <script src="script.js"></script>
+    <div id="objective" class="tabcontent" style="display: block;">
       <section id="objective">
         <h3>Objective</h3>
         <p>Followable, reliable, and admirable high school senior seeking an internship in the field of computer hardware science to gain experience and recieve an accurate look into one of my career interests.</p>
       </section>
-      <hr>
+    </div>
+    <div id="education" class="tabcontent" style="display: none;">
       <section id="education">
         <h3>Education</h3>
         <article id="berkner">
@@ -64,6 +62,17 @@
         </article>
       </section>
       <hr>
+      <section id="certifications">
+        <h3>Certifications</h3>
+        <article id="inventor">
+          <h4>Autodesk Inventor 2017</h4>
+          <h5>
+            <em>Spring 2019</em>
+          </h5>
+        </article>
+      </section>
+    </div>
+    <div id="experience" class="tabcontent" style="display: none;">
       <section id="work">
         <h3>Experience</h3>
         <article id="cinnabon">
@@ -75,9 +84,10 @@
           </ul>
         </article>
       </section>
-      <hr>
+    </div>
+    <div id="extracurricular" class="tabcontent" style="display: none;">
       <section id="extracurricular">
-        <h3>School Organizations</h3>
+        <h3>Extracurricular</h3>
         <article id="robotics">
           <h4>Robotics Club - STEM</h4>
           <h5>2018 - 2021</h5>
@@ -97,21 +107,13 @@
           </ul>
         </article>
       </section>
-      <hr>
-      <section id="certifications">
-        <h3>Certifications</h3>
-        <article id="inventor">
-          <h4>Autodesk Inventor 2017</h4>
-          <h5>
-            <em>Spring 2019</em>
-          </h5>
-        </article>
-      </section>
-      <!--Adds additional space below final text-->
-      <br>
-      <br>
-      <br>
-      <footer>
-      </footer>
-  <!-- </body> -->
+    </div>
+  </body>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <hr>
+    <center>Anderson Dauer | 2021</center>
+  </footer>
 </html>

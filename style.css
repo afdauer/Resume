@@ -1,5 +1,3 @@
-//Version 0.2.1 Alpha
-//Last Updated: 3/8/21
 h1 {
   font-family: Helvectia, sans-serif;
 
@@ -30,3 +28,27 @@ p {
 li {
   font-family: Helvectia, sans-serif;
 }
+
+header {
+  background-color: #85929E;
+}
+
+body {
+  background-color: #85929E;
+}
+
+footer {
+  font-family: Helvectia, sans-serif;
+  background-color: #85929E;
+}
+
+.tabs {
+  overflow: hidden;
+  //border: 1px solid #ccc;
+  background-color: #85929E ;
+}
+
+
+
+//Version 0.2.1 Alpha
+//Last Updated: 3/8/21
