@@ -1,12 +1,11 @@
 Project: ResumePractice
 User: ad321196
 Last Updated: 3/8/2021
-Version: 0.2.0 Alpha
+Version: 0.2.1 Alpha
 
 Patch Notes:
-- Added version heading to all files
-- Added last updated heading to all files
-- Changed all fonts to Helvectia
+- Added buttons to each section
+- Commenting all sections out to add integrated pages
 
 Code Details:
 
