@@ -48,7 +48,10 @@ footer {
   background-color: #85929E ;
 }
 
+img {
+  border: 4px solid burlywood;
+}
 
 
-//Version 0.2.1 Alpha
-//Last Updated: 3/8/21
+//Version 0.3.0 Beta
+//Last Updated: 3/10/21
